@@ -45,7 +45,7 @@ def configurar_usuario():
     }
 
 def modify_kernel_config(config):
-    kernel_file = "kernel.asm"
+    kernel_file = "../helloworld/kernel.asm"
     with open(kernel_file, "r") as f:
         lines = f.readlines()
     new_lines = []
