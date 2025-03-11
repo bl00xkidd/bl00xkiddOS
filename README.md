@@ -104,7 +104,7 @@ bl00xkiddOS/
    ```
 2. Clone o repositório e entre na pasta do projeto:
    ```sh
-   git clone <URL_DO_REPO>
+   git clone https://github.com/bl00xkidd/bl00xkiddOS/tree/main
    cd bl00xkiddOS
    ```
 3. Compile o sistema:
