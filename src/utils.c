@@ -3,8 +3,7 @@
 #include "../include/timer.h"
 #include "../include/stdlib.h"
 
-void show_random_binary()
-{
+void show_random_binary() {
     for (int i = 0; i < 100; i++) // Mostra 100 linhas de números aleatórios
     {
         for (int j = 0; j < 80; j++) // Cada linha tem 80 caracteres
@@ -15,8 +14,7 @@ void show_random_binary()
     }
 }
 
-void print_logo()
-{
+void print_logo() {
     printk("\t                                                                                    \n");
     printk("\t ___.   .__  _______  _______          __   .__    .___  .___________    _________  \n");
     printk("\t \_ |__ |  | \   _  \ \   _  \ ___  __|  | _|__| __| _/__| _/\_____  \  /   _____/  \n");
@@ -27,13 +25,13 @@ void print_logo()
     printk("\t                                                                                    \n");
 }
 
-void boot_sequence()
-{
+void boot_sequence() {
     show_random_binary();
     sleep(10); // Espera 10 segundos
     print_logo();
 }
-{
+
+void about(const char *version) {
     printk("\n\tbl00xkiddOS - An bl00xkidd Team OS for roblox games hacking", version);
     printk("\n\tJoin Team bl00xkidd!: https://discord.gg/bjjQEx9uBr\n");
 };
