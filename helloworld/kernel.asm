@@ -8,7 +8,7 @@
 [ORG 0x7C00]             ; Código carregado no endereço 0x7C00
 
 ; Configuração de variáveis modificáveis por SETUP.py
-fastboot DB 1           ; 1 = Ativado, 0 = Desativado
+fastboot DB 0           ; 1 = Ativado, 0 = Desativado
 username DB 'Usuário', 0
 password DB '1234', 0   ; Senha do usuário
 debug_mode DB 0         ; 0 = Desativado, 1 = Ativado
