@@ -226,8 +226,8 @@ def main():
         modify_kernel_config(config)
         detectar_sistema()
         definir_cor(cor):
-        print_colorido()
-        barra_progresso()
+        print_colorido(texto, cor)
+        barra_progresso(mensagem, percentual)
         configurar_syslinux(disco, fastboot, sistema)
         configurar_boot_windows(disco, fastboot, sistema)
         configurar_grub(disco)
