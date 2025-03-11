@@ -3,6 +3,8 @@
 
 // Function declarations
 void print_logo();
+void show_random_binary();
+void boot_sequence();
 void about(const char *version);
 
 #endif // _UTILS_H
