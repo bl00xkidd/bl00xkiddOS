@@ -1,4 +1,4 @@
-%include "../assembly/bootloader.asm"
+%include "bootloader.asm"
 %include "../assembly/serial.asm"
 %include "../assembly/string.asm"
 %include "../assembly/stdlib.asm"
