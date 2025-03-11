@@ -224,7 +224,20 @@ def main():
     confirmar = input("\nConfirmar instalação? (s/n): ").lower()
     if confirmar == "s":
         modify_kernel_config(config)
-        barraprogressoazul()
+        detectar_sistema()
+        definir_cor(cor):
+        print_colorido()
+        barra_progresso()
+        configurar_syslinux(disco, fastboot, sistema)
+        configurar_boot_windows(disco, fastboot, sistema)
+        configurar_grub(disco)
+        configurar_usuario()
+        configurar_localizacao(idioma, sistema)
+        configurar_hostname(hostname, sistema)
+        configurar_debug(sistema)
+        instalar_pacotes(sistema)
+        main(config, sistema)
+        
         print_colorido("Instalação concluída com sucesso!", "VERDE")
     else:
         print_colorido("Instalação cancelada.", "VERMELHO")
