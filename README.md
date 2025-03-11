@@ -119,6 +119,9 @@ bl00xkiddOS/
 ## Contribuição
 Se quiser contribuir, sinta-se à vontade para enviar PRs ou relatar problemas na seção de issues.
 
+## ESTE PROJETO ESTÁ EM DESENVOLVIMENTO!
+Este projeto está na versão V1.0 ALPHA, ou seja ele está em desenvolvimento
+
 ## Licença
 Este projeto é distribuído sob a Licença MIT.
 
