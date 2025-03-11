@@ -7,7 +7,7 @@
 
 #include "stdint.h"
 
-#define CURRENT_YEAR 2022
+#define CURRENT_YEAR 2025
 
 #define RTCaddress 0x0070
 #define RTCdata 0x0071
