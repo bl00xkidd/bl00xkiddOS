@@ -12,7 +12,7 @@ void show_random_binary() {
         }
         printk("\n");
     }
-}
+};
 
 void print_logo() {
     printk("\t                                                                                    \n");
@@ -23,7 +23,8 @@ void print_logo() {
     printk("\t |___  /____/\_____  /\_____  /__/\_ \__|_ \__\____ \____ | \_______  /_______  /   \n");
     printk("\t     \/            \/       \/      \/    \/       \/    \/         \/        \/    \n");
     printk("\t                                                                                    \n");
-}
+};
+
 void about(const char *version) {
     printk("\n\tbl00xkiddOS - An bl00xkidd Team OS for roblox games hacking", version);
     printk("\n\tJoin Team bl00xkidd!: https://discord.gg/bjjQEx9uBr\n");
