@@ -24,16 +24,16 @@ void print_logo() {
     printk("\t     \/            \/       \/      \/    \/       \/    \/         \/        \/    \n");
     printk("\t                                                                                    \n");
 }
+void about(const char *version) {
+    printk("\n\tbl00xkiddOS - An bl00xkidd Team OS for roblox games hacking", version);
+    printk("\n\tJoin Team bl00xkidd!: https://discord.gg/bjjQEx9uBr\n");
+};
 
 void boot_sequence() {
     show_random_binary();
     sleep(10); // Espera 10 segundos
     print_logo();
+    about()
 }
-
-void about(const char *version) {
-    printk("\n\tbl00xkiddOS - An bl00xkidd Team OS for roblox games hacking", version);
-    printk("\n\tJoin Team bl00xkidd!: https://discord.gg/bjjQEx9uBr\n");
-};
 
 #endif  // _INCLUDE_INCLUDE_UTILS_H_INCLUD_H_
