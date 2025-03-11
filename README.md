@@ -82,6 +82,7 @@ bl00xkiddOS/
 │
 │-- helloworld/        # Teste de bootloader
 │   │-- bootloader.asm
+│   │-- kernel.asm
 │
 │-- .gitignore         # Arquivos ignorados pelo Git
 │-- Makefile           # Arquivo para compilação automática
